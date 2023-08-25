@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".Shopkeeper.shopkeeperFragRegister">
+
+    <TextView
+        android:id="@+id/textShopkeeperRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Register Now"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/set_name_shopkeeper"
+        android:background="@drawable/input_design"
+        android:layout_below="@+id/textShopkeeperRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter your name"
+        android:maxLength="20"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:inputType="textPersonName"
+        android:autofillHints="Eg. - Jack Sparrow"/>
+
+    <EditText
+        android:id="@+id/set_phone_shopkeeper"
+        android:background="@drawable/input_design"
+        android:layout_below="@+id/set_name_shopkeeper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter mobile number"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:autofillHints="Eg. - 90000XXXXX"/>
+
+    <EditText
+        android:id="@+id/set_shop_name"
+        android:background="@drawable/input_design"
+        android:layout_below="@+id/set_phone_shopkeeper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter shop name"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:inputType="text"
+        android:maxLength="20"
+        android:autofillHints="Eg. - My Shop"/>
+
+    <EditText
+        android:id="@+id/set_shopId_shopkeeper"
+        android:background="@drawable/input_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_shop_name"
+        android:padding="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="17sp"
+        android:hint="Enter 5-digit shop i'd"
+        android:inputType="number"
+        android:maxLength="5"
+        android:autofillHints="For eg:- 059XX"/>
+
+    <EditText
+        android:id="@+id/set_password_shopkeeper"
+        android:background="@drawable/input_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_shopId_shopkeeper"
+        android:padding="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="17sp"
+        android:hint="Set a password"
+        android:inputType="textVisiblePassword"
+        android:autofillHints="Enter an alphanumeric password"/>
+
+    <Button
+        android:id="@+id/register_shopkeeper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:padding="20dp"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:background="@drawable/buttons"
+        android:text="Register" />
+
+
+
+</RelativeLayout>

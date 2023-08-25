@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Shopkeeper.shopkeeperResetPassword">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:text="Reset"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="70sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Password"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="38sp" />
+
+
+    <EditText
+        android:id="@+id/input_new_pass"
+        android:background="@drawable/input_design"
+        android:layout_below="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter new password"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:inputType="textPassword"
+        android:autofillHints="Eg. - xxxx"/>
+
+    <EditText
+        android:id="@+id/confirm_pass"
+        android:background="@drawable/input_design"
+        android:layout_below="@+id/input_new_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Confirm Password"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:inputType="textPassword"
+        android:autofillHints="Eg. - xxxx"/>
+
+    <Button
+        android:id="@+id/reset_btn_shopkeeper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_pass"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:padding="20dp"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:background="@drawable/buttons"
+        android:text="RESET" />
+
+</RelativeLayout>

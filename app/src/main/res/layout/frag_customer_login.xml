@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".Customer.customerFragLogin">
+
+    <TextView
+        android:id="@+id/textCustomerLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:text="Fill the credentials below to login"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/phone_customer"
+        android:background="@drawable/input_design"
+        android:layout_below="@+id/textCustomerLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter phone number"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:autofillHints="Eg. - 90000XXXX"/>
+
+    <EditText
+        android:id="@+id/password_customer"
+        android:background="@drawable/input_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phone_customer"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="17sp"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:autofillHints="Enter an alphanumeric password"/>
+
+    <Button
+        android:id="@+id/login_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/forgot_pass_customer"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:padding="20dp"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:background="@drawable/buttons"
+        android:text="Login" />
+
+
+    <TextView
+        android:id="@+id/forgot_pass_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/forgot_password"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:linksClickable="true"
+        android:textSize="18sp"
+        android:focusable="true" />
+
+
+</RelativeLayout>

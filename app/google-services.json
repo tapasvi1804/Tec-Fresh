@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "491965697416",
+    "project_id": "tecfresh-bfa09",
+    "storage_bucket": "tecfresh-bfa09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491965697416:android:a684286905e001587cbe3d",
+        "android_client_info": {
+          "package_name": "com.example.TecFresh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491965697416-0olqqckgkfqb96mo83dpr98721522f3l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.TecFresh",
+            "certificate_hash": "a2aaa02cc23ac32051a20d986b170b7ad3ada3d8"
+          }
+        },
+        {
+          "client_id": "491965697416-bljqng2a2t69a6pnqegtr9vu56nkgsfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9YgwirwNEyYi8ERbeJsA2-6KrxZB-Ud4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491965697416-bljqng2a2t69a6pnqegtr9vu56nkgsfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

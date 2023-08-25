@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    tools:context=".Customer.customerFragRegister">
+
+    <TextView
+        android:id="@+id/textCustomerRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:text="Register Now"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/set_name_customer"
+        android:background="@drawable/input_design"
+        android:layout_below="@+id/textCustomerRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter your name"
+        android:maxLength="25"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:inputType="textPersonName"
+        android:autofillHints="Eg. - Nicholas Henry"/>
+
+    <EditText
+        android:id="@+id/set_email_customer"
+        android:background="@drawable/input_design"
+        android:layout_below="@+id/set_name_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Enter your email i'd"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:inputType="textEmailAddress"
+        android:autofillHints="Eg. - xxx@gmail.com"/>
+
+    <EditText
+        android:id="@+id/set_phone_customer"
+        android:background="@drawable/input_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_email_customer"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="17sp"
+        android:hint="Enter mobile number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:autofillHints="For eg:- 9000XXXXXX"/>
+
+    <EditText
+        android:id="@+id/set_password_customer"
+        android:background="@drawable/input_design"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_phone_customer"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="15dp"
+        android:textSize="17sp"
+        android:hint="Set a password"
+        android:inputType="textVisiblePassword"
+        android:autofillHints="Enter an alphanumeric password"/>
+
+    <Button
+        android:id="@+id/register_customer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:padding="20dp"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:background="@drawable/buttons"
+        android:text="Register" />
+
+
+</RelativeLayout>
